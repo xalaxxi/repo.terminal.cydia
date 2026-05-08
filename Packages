@@ -6,8 +6,27 @@ Installed-Size: 52
 Filename: ./debs/com.xalaxxi.sl_0.0.1-1+debug_iphoneos-arm.deb
 Size: 2524
 MD5sum: 37a2885e2e622faf5f92a32148b51422
+SHA1: e9447bd808740afce7ee450733787b90cecc4ad1
+SHA256: 5e500c35827bba08c10202f2becf449386eb7c3f5fc76cd845a6bfe981a6e682
 Section: System
-Description: Runs Steam Locomotive in the Terminal.
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: xalaxxi
+Name: sl
+
+Package: com.xalaxxi.sl
+Version: 0.0.1-10-1+debug
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Installed-Size: 52
+Filename: ./debs/com.xalaxxi.sl_0.0.1-10-1+debug_iphoneos-arm.deb
+Size: 2792
+MD5sum: 52b18e925bec4a0464c2b984c8f74b25
+SHA1: dca8ec47939e697563c32e9019e0a7759698e3f8
+SHA256: 2e5ac354d98203ad738d77873d0b09069b901b728deb91a2af635a0eae996b15
+Section: System
+Description: Installs Steam Locomotive in the Terminal.
+Tag: role::hacker
 Author: xalaxxi
 Name: sl
 
@@ -19,8 +38,27 @@ Installed-Size: 52
 Filename: ./debs/com.xalaxxi.sl_0.0.1-2+debug_iphoneos-arm.deb
 Size: 2524
 MD5sum: 04324dde146ca64fa9407d66dd0b872d
+SHA1: a6aa1ccecda544a5bc3d48371fc97f34f436ae33
+SHA256: d14694694824b0e3081f0a876e416a449f9b7b24b069dac0f117e33e0288ba40
 Section: System
-Description: Runs Steam Locomotive in the Terminal.
+Description: An awesome tool of some sort!!
+Tag: role::hacker
 Author: xalaxxi
 Name: sl
- 
+
+Package: com.xalaxxi.sl
+Version: 0.0.1-5+debug-1+debug
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Installed-Size: 52
+Filename: ./debs/com.xalaxxi.sl_0.0.1-5+debug-1+debug_iphoneos-arm.deb
+Size: 2790
+MD5sum: 2205563eb0b88f377ddd11906e7a4bbd
+SHA1: e9d6c13e906a172b38d8ff516ad6beeb9ef31014
+SHA256: 336b914e6be6f30e56bcfcaec27c683797c2aae02b57856ab5077c84a0a1f796
+Section: System
+Description: Installs Steam Locomotive in the Terminal.
+Tag: role::hacker
+Author: xalaxxi
+Name: sl
+
