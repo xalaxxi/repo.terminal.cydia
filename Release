@@ -1,11 +1,8 @@
 Origin: xalaxxi
-Label: xalaxxi Terminal Tools
+Label: xalaxxi
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Terminal tools and tweaks for legacy iOS.
-MD5Sum:
- 7193cf32d3ee5f491081fd2c2ef318b5 904 Packages
- 9621bba2ad8b64625856fe1dec5a2926 510 Packages.bz2
+Description: xalaxxi's terminal repo (32-bit & 64-bit)
