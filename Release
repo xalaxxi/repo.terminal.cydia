@@ -1,8 +1,8 @@
 Origin: xalaxxi
-Label: xalaxxi
+Label: xalaxxi Legacy
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
-Description: xalaxxi's terminal repo (32-bit & 64-bit)
+Description: Vintage terminal tweaks for legacy iOS devices.
