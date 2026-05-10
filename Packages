@@ -30,6 +30,22 @@ Tag: role::hacker
 Author: xalaxxi
 Name: neofetch
 
+Package: com.xalaxxi.neofetch
+Version: 1.3-1+debug
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Installed-Size: 52
+Filename: ./debs/com.xalaxxi.neofetch_1.3-1+debug_iphoneos-arm.deb
+Size: 3034
+MD5sum: 5b90b1d688904531f69c193f6e78e978
+SHA1: 0f399bd8aa416367b0a1d176b651a23ef2fb4b61
+SHA256: 547aee13e21c09b019aab06e6e21c7b45e02bfe37396c4fe0dd890ea22a8b881
+Section: System
+Description: A fast, rainbow-themed system info tool for Legacy iOS.
+Tag: role::hacker
+Author: xalaxxi
+Name: neofetch
+
 Package: com.xalaxxi.sl
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm
