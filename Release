@@ -1,8 +1,8 @@
-Origin: xalaxxi
-Label: xalaxxi Legacy
+Origin: Legacy iOS Terminal
+Label: Legacy iOS Terminal
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Vintage terminal tweaks for legacy iOS devices.
+Description: Terminal utensils for Legacy iOS.
