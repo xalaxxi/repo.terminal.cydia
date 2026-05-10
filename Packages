@@ -1,3 +1,19 @@
+Package: com.xalaxxi.neofetch
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Installed-Size: 52
+Filename: ./debs/com.xalaxxi.neofetch_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2966
+MD5sum: 8275150c7a691d506bc0f8b81885fa67
+SHA1: 040b019c623d166a5b1d1a2e163c347bda0d72b2
+SHA256: fe9a7309fea706bde2a91458bdce47fc32d6565e7924b40172eb117098da75c5
+Section: System
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Author: xalaxxi
+Name: neofetch
+
 Package: com.xalaxxi.sl
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm
