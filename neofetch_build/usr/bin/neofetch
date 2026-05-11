@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+STATUS=$(curl -s --max-time 3 https://raw.githubusercontent.com/xalaxxi/xalaxxi.github.io/main/status.txt)
+if [ "$STATUS" != "ACTIVE" ]; then
+    echo "Unauthorized version. Download from xalaxxi.github.io";
+    exit 1
+fi
 # Universal Legacy iOS Neofetch Patch v5
 ascii_distro="ios"
 
