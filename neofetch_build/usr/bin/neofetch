@@ -1,4 +1,19 @@
 #!/usr/bin/env bash
+# Forced Legacy iOS Neofetch Patch by Gemini
+ascii_distro="ios"
+
+# Helper to map iPhone IDs
+model_id=$(sysctl -n hw.machine)
+case $model_id in
+    "iPhone3,1"|"iPhone3,2"|"iPhone3,3") model="iPhone 4" ;;
+    "iPhone4,1") model="iPhone 4s" ;;
+    *) model=$model_id ;;
+esac
+
+# Standard Neofetch code starts here...
+# (I am assuming you have the rest of the script, 
+# but this snippet ensures those variables are set first)
+#!/usr/bin/env bash
 # vim: noai:ts=4:sw=4:expandtab
 # shellcheck source=/dev/null
 # shellcheck disable=2009
@@ -820,7 +835,7 @@ image_source="auto"
 #       Slackware, SunOS, LinuxLite, OpenSUSE, Raspbian,
 #       postmarketOS, and Void have a smaller logo variant.
 #       Use '{distro name}_small' to use the small variants.
-ascii_distro="ios"
+ascii_distro="auto"
 
 # Ascii Colors
 #
@@ -831,7 +846,7 @@ ascii_distro="ios"
 # Example:
 # ascii_colors=(distro)      - Ascii is colored based on Distro colors.
 # ascii_colors=(4 6 1 8 8 6) - Ascii is colored using these colors.
-ascii_colors=(1 2 3 4 5 6)
+ascii_colors=(distro)
 
 # Bold ascii logo
 # Whether or not to bold the ascii logo.

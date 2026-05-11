@@ -1,8 +1,8 @@
 Package: com.xalaxxi.neofetch
-Name: Neofetch (Legacy)
-Version: 7.1.0-1
+Name: neofetch
+Version: 7.1.0-2
 Architecture: iphoneos-arm
-Description: A system info script fixed for legacy iOS.
+Description: Terminal command used for device information using bash.
 Maintainer: xalaxxi
-Section: Utilities
-Depends: bash, coreutils
+Section: Terminal_Support
+Depends: bash, coreutils, gawk, grep, sed
