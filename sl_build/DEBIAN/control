@@ -5,4 +5,4 @@ Architecture: iphoneos-arm
 Description: Terminal command used for Steam Locomotive animations.
 Maintainer: xalaxxi
 Section: Terminal_Support
-Depends: ncurses
+Depends: curl

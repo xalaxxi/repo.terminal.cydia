@@ -9,6 +9,25 @@ if [ "$STATUS" != "ACTIVE" ]; then
     echo "Unauthorized version. Download from xalaxxi.github.io";
     exit 1
 fi
+if command -v curl >/dev/null 2>&1; then
+  STATUS=$(curl -s --max-time 3 https://raw.githubusercontent.com/xalaxxi/xalaxxi.github.io/main/status.txt)
+  if [ "$STATUS" != "ACTIVE" ]; then
+      echo "Unauthorized version. Download from xalaxxi.github.io";
+      exit 1
+  fi
+else
+  echo "Notice: curl not found. Skipping security check..."
+fi
+STATUS=$(curl -s --max-time 3 https://raw.githubusercontent.com/xalaxxi/xalaxxi.github.io/main/status.txt)
+if [ "$STATUS" != "ACTIVE" ]; then
+    echo "Unauthorized version. Download from xalaxxi.github.io";
+    exit 1
+fi
+STATUS=$(curl -s --max-time 3 https://raw.githubusercontent.com/xalaxxi/xalaxxi.github.io/main/status.txt)
+if [ "$STATUS" != "ACTIVE" ]; then
+    echo "Unauthorized version. Download from xalaxxi.github.io";
+    exit 1
+fi
 # Universal Legacy iOS Neofetch Patch v5
 ascii_distro="ios"
 
