@@ -1,69 +1,13 @@
 Package: com.xalaxxi.neofetch
-Version: 7.1.0-1
-Architecture: iphoneos-arm
-Maintainer: xalaxxi
-Depends: bash, coreutils
-Filename: ./debs/com.xalaxxi.neofetch_7.1.0-1_iphoneos-arm.deb
-Size: 95546
-MD5sum: d8272d452f4a4e2a9d5ffeb9a066e3f9
-SHA1: 136f836af2e695d2b76c65704be30e38f630bfa4
-SHA256: 9b7467f5a9bb55dbd11091b47faaacd4120854b86a03bd9957e3fa26906031a1
-Section: Utilities
-Description: A system info script fixed for legacy iOS.
-Name: Neofetch (Legacy)
-
-Package: com.xalaxxi.neofetch
-Version: 7.1.0-2
-Architecture: iphoneos-arm
-Maintainer: xalaxxi
-Depends: bash, coreutils, gawk, grep, sed
-Filename: ./debs/com.xalaxxi.neofetch_7.1.0-2_iphoneos-arm.deb
-Size: 95744
-MD5sum: d75111941495cf5bd77606e0f84378ca
-SHA1: 939baba2ca1c21b12c6ada186717068e95b2808b
-SHA256: 658d4c65ccc66f702f0c2b9338bd26a42137e3d02d5d08a694954f5c553223f9
-Section: Terminal_Support
-Description: Terminal command used for device information using bash.
-Name: neofetch
-
-Package: com.xalaxxi.neofetch
-Version: 7.1.0-4
-Architecture: iphoneos-arm
-Maintainer: xalaxxi
-Depends: bash, coreutils, gawk, grep, sed
-Filename: ./debs/com.xalaxxi.neofetch_7.1.0-4_iphoneos-arm.deb
-Size: 96056
-MD5sum: 347f96457e1464f2fc4b572e247c0032
-SHA1: 7f7db09f44a3d06f40415da76f0049df383d16d2
-SHA256: 9b6938a0c49dec7d92d58c0c32f45328be1ee8de76790188b690dc365f0b2b9e
-Section: Terminal_Support
-Description: Terminal command used for device information using bash.
-Name: neofetch
-
-Package: com.xalaxxi.neofetch
-Version: 7.1.0-6
-Architecture: iphoneos-arm
-Maintainer: xalaxxi
-Depends: bash, coreutils, gawk, grep, sed
-Filename: ./debs/com.xalaxxi.neofetch_7.1.0-6_iphoneos-arm.deb
-Size: 95948
-MD5sum: a03924b2e1c1b6ebb3eec8565940c594
-SHA1: 91da57fdd7d60042fb0c55c80fdd14d75069f43f
-SHA256: a527a32c506d20ba7812641a030bc4746915ab12f1c98e23e5c401f225e621c5
-Section: Terminal_Support
-Description: Terminal command used for device information using bash.
-Name: neofetch
-
-Package: com.xalaxxi.neofetch
 Version: 7.1.0-7
 Architecture: iphoneos-arm
 Maintainer: xalaxxi
 Depends: bash, coreutils, gawk, grep, sed
-Filename: ./debs/com.xalaxxi.neofetch_7.1.0-7_iphoneos-arm.deb
-Size: 95936
-MD5sum: 72498a6845aa651bb11978e3e3a7f4fa
-SHA1: 9384eb31bb9589f3feef50b46b58ec2661bbafad
-SHA256: f1209f84d35119949c047ed1944006969625ec97af211f80eda4fb733aec1937
+Filename: ./debs/com.xalaxxi.neofetch_7.1.1_iphoneos-arm.deb
+Size: 96052
+MD5sum: 2afac58b8de0037a744cd7ee8f5c2d6e
+SHA1: 4c9863d0757b0757d6adc6210e0961d01a3882c1
+SHA256: c2c0462119d4bb8b434e398b74649a1d3db89edd7ac68d76a4be8784be5cd2e1
 Section: Terminal_Support
 Description: Terminal command used for device information using bash.
 Name: neofetch
