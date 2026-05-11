@@ -1,8 +1,9 @@
 Package: com.xalaxxi.sl
 Name: sl
-Version: 5.05-2
+Version: 5.05-5
 Architecture: iphoneos-arm
-Description: Terminal command used for Steam Locomotive animations.
+Description: Steam Locomotive for terminal.
 Maintainer: xalaxxi
-Section: Terminal_Support
+Author: xalaxxi
+Section: Utilities
 Depends: curl
