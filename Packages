@@ -13,15 +13,15 @@ Description: Terminal command used for device information using bash.
 Name: neofetch
 
 Package: com.xalaxxi.sl
-Version: 5.05-1
+Version: 5.05-2
 Architecture: iphoneos-arm
 Maintainer: xalaxxi
-Depends: libncurses
-Filename: debs/com.xalaxxi.sl_5.05-1_iphoneos-arm.deb
-Size: 125354
-MD5sum: f885faadfa40f6997e4aa6620a6f1faa
-SHA1: 9f52a8ae212886b9bdc2d9dcae709f8ef89cd49d
-SHA256: f754a237c66ecfbca84575dc31801e1d595af8027d79b092a267592d202776ae
+Depends: ncurses
+Filename: debs/com.xalaxxi.sl_5.05-2_iphoneos-arm.deb
+Size: 125514
+MD5sum: a91a55bf560a1a954393995629dfa5a5
+SHA1: 3402bdcf270327b9ec17ab27346fd7471db7cca4
+SHA256: 8d4955d9d7a8b327d3b2dd1c2b12977b69620b0888048b42e46e86f3cacf2068
 Section: Terminal_Support
 Description: Terminal command used for Steam Locomotive animations.
 Name: sl
