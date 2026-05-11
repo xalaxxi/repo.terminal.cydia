@@ -132,3 +132,17 @@ Tag: role::hacker
 Author: xalaxxi
 Name: sl
 
+Package: com.xalaxxi.sl
+Version: 5.05-1
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Depends: libncurses
+Filename: ./debs/com.xalaxxi.sl_5.05-1_iphoneos-arm.deb
+Size: 125354
+MD5sum: f885faadfa40f6997e4aa6620a6f1faa
+SHA1: 9f52a8ae212886b9bdc2d9dcae709f8ef89cd49d
+SHA256: f754a237c66ecfbca84575dc31801e1d595af8027d79b092a267592d202776ae
+Section: Terminal_Support
+Description: Terminal command used for Steam Locomotive animations.
+Name: sl
+
