@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-if command -v curl >/dev/null 2>&1; then
-  STATUS=$(curl -sk --max-time 3 https://raw.githubusercontent.com/xalaxxi/repo.terminal.cydia/main/status.txt)
-  if [ "$STATUS" != "ACTIVE" ]; then
-    echo "Unauthorized version. Download from xalaxxi.github.io";
-    exit 1
-  fi
-fi
 # Universal Legacy iOS Neofetch Patch v5
 ascii_distro="ios"
 
