@@ -1,18 +1,51 @@
 #!/usr/bin/env bash
-# Forced Legacy iOS Neofetch Patch by Gemini
+# Universal Legacy iOS Neofetch Patch v3
 ascii_distro="ios"
 
-# Helper to map iPhone IDs
+# Auto-Detect Hardware Model
 model_id=$(sysctl -n hw.machine)
 case $model_id in
-    "iPhone3,1"|"iPhone3,2"|"iPhone3,3") model="iPhone 4" ;;
-    "iPhone4,1") model="iPhone 4s" ;;
+    iPhone1,1) model="iPhone 2G" ;;
+    iPhone1,2) model="iPhone 3G" ;;
+    iPhone2,1) model="iPhone 3GS" ;;
+    iPhone3,*) model="iPhone 4" ;;
+    iPhone4,1) model="iPhone 4s" ;;
+    iPhone5,1|iPhone5,2) model="iPhone 5" ;;
+    iPhone5,3|iPhone5,4) model="iPhone 5c" ;;
+    iPhone6,*) model="iPhone 5s" ;;
+    iPod1,1) model="iPod Touch 1G" ;;
+    iPod2,1) model="iPod Touch 2G" ;;
+    iPod3,1) model="iPod Touch 3G" ;;
+    iPod4,1) model="iPod Touch 4G" ;;
+    iPod5,1) model="iPod Touch 5G" ;;
+    iPad1,1) model="iPad 1" ;;
+    iPad2,1|iPad2,2|iPad2,3|iPad2,4) model="iPad 2" ;;
+    iPad2,5|iPad2,6|iPad2,7) model="iPad Mini 1" ;;
+    iPad3,1|iPad3,2|iPad3,3) model="iPad 3" ;;
+    iPad3,4|iPad3,5|iPad3,6) model="iPad 4" ;;
     *) model=$model_id ;;
 esac
 
-# Standard Neofetch code starts here...
-# (I am assuming you have the rest of the script, 
-# but this snippet ensures those variables are set first)
+# RAM Fix for iOS
+mem_total=$(sysctl -n hw.physmem)
+# Using vm_stat and sed to clean up the page count
+mem_free_pages=$(vm_stat | grep "Pages free" | awk '{print $3}' | tr -d '.')
+page_size=$(vm_stat | grep "page size of" | awk '{print $8}')
+
+if [ ! -z "$mem_free_pages" ]; then
+    total_bytes=$mem_total
+    free_bytes=$((mem_free_pages * page_size))
+    used_bytes=$((total_bytes - free_bytes))
+    
+    # Ensure we don't get negative values
+    if [ $used_bytes -lt 0 ]; then used_bytes=0; fi
+    
+    mem_used=$((used_bytes / 1024 / 1024))
+    mem_total_mib=$((total_bytes / 1024 / 1024))
+    memory="${mem_used}MiB / ${mem_total_mib}MiB"
+fi
+
+# Append rest of neofetch
 #!/usr/bin/env bash
 # vim: noai:ts=4:sw=4:expandtab
 # shellcheck source=/dev/null

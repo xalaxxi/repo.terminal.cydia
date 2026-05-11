@@ -26,6 +26,20 @@ Section: Terminal_Support
 Description: Terminal command used for device information using bash.
 Name: neofetch
 
+Package: com.xalaxxi.neofetch
+Version: 7.1.0-4
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Depends: bash, coreutils, gawk, grep, sed
+Filename: ./debs/com.xalaxxi.neofetch_7.1.0-4_iphoneos-arm.deb
+Size: 96056
+MD5sum: 347f96457e1464f2fc4b572e247c0032
+SHA1: 7f7db09f44a3d06f40415da76f0049df383d16d2
+SHA256: 9b6938a0c49dec7d92d58c0c32f45328be1ee8de76790188b690dc365f0b2b9e
+Section: Terminal_Support
+Description: Terminal command used for device information using bash.
+Name: neofetch
+
 Package: com.xalaxxi.sl
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm

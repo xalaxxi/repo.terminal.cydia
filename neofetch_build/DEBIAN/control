@@ -1,6 +1,6 @@
 Package: com.xalaxxi.neofetch
 Name: neofetch
-Version: 7.1.0-2
+Version: 7.1.0-4
 Architecture: iphoneos-arm
 Description: Terminal command used for device information using bash.
 Maintainer: xalaxxi
