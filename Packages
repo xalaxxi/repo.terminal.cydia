@@ -1,3 +1,17 @@
+Package: com.xalaxxi.neofetch
+Version: 7.1.0-1
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Depends: bash, coreutils
+Filename: ./debs/com.xalaxxi.neofetch_7.1.0-1_iphoneos-arm.deb
+Size: 95546
+MD5sum: d8272d452f4a4e2a9d5ffeb9a066e3f9
+SHA1: 136f836af2e695d2b76c65704be30e38f630bfa4
+SHA256: 9b7467f5a9bb55dbd11091b47faaacd4120854b86a03bd9957e3fa26906031a1
+Section: Utilities
+Description: A system info script fixed for legacy iOS.
+Name: Neofetch (Legacy)
+
 Package: com.xalaxxi.sl
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm
