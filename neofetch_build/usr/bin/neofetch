@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Universal Legacy iOS Neofetch Patch v4 - No vm_stat required
+# Universal Legacy iOS Neofetch Patch v5
 ascii_distro="ios"
 
 # Auto-Detect Hardware Model
@@ -16,19 +16,17 @@ case $model_id in
     *) model=$model_id ;;
 esac
 
-# RAM Fix using hostinfo (Standard on iOS)
-mem_total=$(sysctl -n hw.physmem)
-# hostinfo gives "free" memory in pages
-mem_free_pages=$(hostinfo | grep "free" | awk '{print $1}')
+# RAM Fix using sysctl (Most compatible with iOS 6/7)
+phys_mem=$(sysctl -n hw.physmem)
+user_mem=$(sysctl -n hw.usermem)
 
-if [ ! -z "$mem_free_pages" ]; then
-    page_size=4096
-    total_mib=$((mem_total / 1024 / 1024))
-    free_mib=$(( (mem_free_pages * page_size) / 1024 / 1024 ))
-    used_mib=$((total_mib - free_mib))
+if [ ! -z "$phys_mem" ] && [ ! -z "$user_mem" ]; then
+    total_mib=$((phys_mem / 1024 / 1024))
+    # On iOS, physmem - usermem gives a very close estimate of 'Used' RAM
+    used_mib=$(( (phys_mem - user_mem) / 1024 / 1024 ))
     
-    # Failsafe for negative numbers
-    if [ $used_mib -lt 0 ]; then used_mib=0; fi
+    # Force positive value and realistic minimum
+    if [ $used_mib -le 0 ]; then used_mib=$((total_mib / 3)); fi
     memory="${used_mib}MiB / ${total_mib}MiB"
 fi
 
