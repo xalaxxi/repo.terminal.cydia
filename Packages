@@ -1,0 +1,30 @@
+Package: com.xalaxxi.neofetch
+Version: 7.1.11
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Depends: curl
+Filename: ./debs/com.xalaxxi.neofetch_7.1.11_iphoneos-arm.deb
+Size: 95484
+MD5sum: 3aad0ac0a6593b6061311810efd01634
+SHA1: 77eace61a2a1b81f1f022f9afdd243de0f7fe13d
+SHA256: f82eedd52f218273096a0d881474e570fac507f6cf9baf144cddc8bc27ac0d07
+Section: Utilities
+Description: System info tool.
+Author: xalaxxi
+Name: neofetch
+
+Package: com.xalaxxi.sl
+Version: 5.05-11
+Architecture: iphoneos-arm
+Maintainer: xalaxxi
+Depends: curl
+Filename: ./debs/com.xalaxxi.sl_5.05-11_iphoneos-arm.deb
+Size: 638
+MD5sum: 89043885b371fbaa71a5ff8adcd19207
+SHA1: c6963cfaef3cc2e1cccff66c475d62b00874bd33
+SHA256: f0f3fa3527ecebffb519adb0769649386ceb9f3041562c193c06ea9b5f02d6a5
+Section: Utilities
+Description: Steam Locomotive.
+Author: xalaxxi
+Name: sl
+
