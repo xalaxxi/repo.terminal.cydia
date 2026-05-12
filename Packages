@@ -1,0 +1,13 @@
+Package: com.xalaxxi.sl
+Version: 0.0.0
+Architecture: iphoneos-arm
+Description: (Removed)
+Section: Utilities
+
+Package: com.xalaxxi.neofetch
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Xalaxxi
+Filename: debs/neofetch.deb
+Section: Terminal_Support
+Description: A fast system info script.
