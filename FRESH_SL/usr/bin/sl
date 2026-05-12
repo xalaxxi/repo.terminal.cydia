@@ -1,2 +1,9 @@
-#!/usr/bin/env bash
-sl-anim "$@"
+#!/bin/sh
+echo ""
+echo "    ====  STEAM LOCOMOTIVE  ===="
+echo "         _   __      "
+echo "        / \_/  \     "
+echo "      __\_  ___/     "
+echo "     /_/  /_/        "
+echo ""
+echo "[Built by xalaxxi - SUCCESS]"
