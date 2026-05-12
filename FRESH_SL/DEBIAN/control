@@ -1,0 +1,9 @@
+Package: com.xalaxxi.sl
+Name: sl
+Version: 5.05-7
+Architecture: iphoneos-arm
+Description: Steam Locomotive.
+Maintainer: xalaxxi
+Author: xalaxxi
+Section: Utilities
+Depends: curl
