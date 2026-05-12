@@ -5,9 +5,9 @@ Maintainer: xalaxxi
 Depends: curl
 Filename: ./debs/neofetch.deb
 Size: 82704
-MD5sum: 3c3ea3bdaafc3bc427f26087ce8ac28b
-SHA1: 8f5e5aadb4183c88bd6c4c617540afef03f4b0ca
-SHA256: e1bfae9878e91deedab99d732a2376577b81f0a0d6e6c2b828faadf5d68e025d
+MD5sum: affe1c36b789675166c4431cbf974b33
+SHA1: fbf020d10d919f7055444d2e08433366e1105c50
+SHA256: 1f7336a330aa9fb03645c0a9665e596d193d5f426302e5538f16d6b82e4949f0
 Section: Utilities
 Description: System info tool.
 Author: xalaxxi
