@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Xalaxxi
 Depends: ncurses
 Filename: ./debs/figlet.deb
-Size: 125462
-MD5sum: c2f22d9287dec59f39b717b800f7d7f3
-SHA1: 43f2416ba45921f523e57a487fb16b82efab743b
-SHA256: 60a82f66999dc13a28651f3cffc24488308021e39cbdbf185c4a01b70ada7723
+Size: 125458
+MD5sum: 97c7ceb991317bd7cc798533e994647c
+SHA1: eb1eed91c4193409da92b6905d125b66a6a74626
+SHA256: 0b0f185a91a328a425d99acd8e121bbba1640c09f7fa3e97d782e80afd42362f
 Section: Terminal_Support
 Description: Make large ASCII banners in your terminal.
 Name: FIGlet
