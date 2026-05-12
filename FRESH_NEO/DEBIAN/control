@@ -2,9 +2,9 @@ Package: com.xalaxxi.neofetch
 Name: neofetch
 Version: 7.1.11
 Architecture: iphoneos-arm
-Description: System info tool.
+Description: Shows device information in terminal using bash.
 Maintainer: xalaxxi
 Author: xalaxxi
-Section: Utilities
+Section: Terminal_Support
 Depends: curl
 

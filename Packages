@@ -4,12 +4,12 @@ Architecture: iphoneos-arm
 Maintainer: xalaxxi
 Depends: curl
 Filename: ./debs/neofetch.deb
-Size: 82704
-MD5sum: affe1c36b789675166c4431cbf974b33
-SHA1: fbf020d10d919f7055444d2e08433366e1105c50
-SHA256: 1f7336a330aa9fb03645c0a9665e596d193d5f426302e5538f16d6b82e4949f0
-Section: Utilities
-Description: System info tool.
+Size: 82732
+MD5sum: c9d9b7c878ccc6c252e88b9b0fb10289
+SHA1: a8754cd848783682fd46838665e21cc9dd535baf
+SHA256: 205eb3a22f84d6e25be646ec44466b56cf1ef70e9aa461185490c4fc0a81ef71
+Section: Terminal_Support
+Description: Shows device information in terminal using bash.
 Author: xalaxxi
 Name: neofetch
 
