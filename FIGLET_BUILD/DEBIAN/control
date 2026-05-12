@@ -1,0 +1,7 @@
+Package: com.xalaxxi.figlet
+Name: FIGlet
+Version: 2.2.5
+Architecture: iphoneos-arm
+Section: Terminal_Support
+Maintainer: Xalaxxi
+Description: Make large ASCII banners in your terminal.
