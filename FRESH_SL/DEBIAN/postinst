@@ -1,4 +1,6 @@
 #!/bin/sh
+cat << 'INNER' > /usr/bin/sl
+#!/bin/sh
 echo ""
 echo "    ====  STEAM LOCOMOTIVE  ===="
 echo "         _   __      "
@@ -7,3 +9,6 @@ echo "      __\_  ___/     "
 echo "     /_/  /_/        "
 echo ""
 echo "[Built by xalaxxi - SUCCESS]"
+INNER
+chmod 755 /usr/bin/sl
+exit 0
