@@ -1,14 +1,14 @@
 Package: com.xalaxxi.figlet
-Version: 2.2.5-14
+Version: 2.2.5-15
 Architecture: iphoneos-arm
 Maintainer: Xalaxxi
 Filename: ./debs/figlet.deb
-Size: 34418
-MD5sum: 835cdf643e1c20b536b42f742808ff1f
-SHA1: 563cab74b1abf76272457d54def671815b924cf9
-SHA256: 03df2009175e6b974c112b4323e56c591cb7b277dc25c557efd3b12d75a1f3fe
+Size: 784
+MD5sum: 6f6f4180c72003be925a91673d928226
+SHA1: 3920422a3d5271f976eb7e592b26830cbb110ee3
+SHA256: c39398747fd31392bb869d73b4dc75ea0edece024f8ad15c8e2b7ee7b83b8f87
 Section: Terminal_Support
-Description: Repo Test - Local Binary.
+Description: ASCII banners - ARMv7 Native.
 Name: figlet
 
 Package: com.xalaxxi.neofetch
