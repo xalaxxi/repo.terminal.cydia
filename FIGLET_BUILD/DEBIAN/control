@@ -1,6 +1,6 @@
 Package: com.xalaxxi.figlet
-Name: FIGlet
-Version: 2.2.5-1
+Name: figlet
+Version: 2.2.5-2
 Architecture: iphoneos-arm
 Section: Terminal_Support
 Maintainer: Xalaxxi
