@@ -1,14 +1,11 @@
 Package: com.xalaxxi.figlet
-Version: 2.2.5-24
+Version: 2.2.5-30
 Architecture: iphoneos-arm
 Maintainer: Xalaxxi
-Filename: ./debs/figlet.deb
-Size: 716
-MD5sum: a03c4c8315e273bf6bee138fb051fdde
-SHA1: 96650b5bbebc49dd514745ed32ec33f98dce925f
-SHA256: b29b817dbb9f9b4d8409c1c2285dbd9333b550d32ea7a3560625f98e90979e02
+Filename: debs/figlet_working.deb
+Size: 168340
 Section: Terminal_Support
-Description: Native Mach-O Architecture Test.
+Description: ASCII banners for terminal.
 Name: figlet
 
 Package: com.xalaxxi.neofetch
@@ -25,4 +22,4 @@ Section: Terminal_Support
 Description: Shows device information in terminal using bash.
 Author: xalaxxi
 Name: neofetch
-
+ 
