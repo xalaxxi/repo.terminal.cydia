@@ -1,7 +1,7 @@
 Package: com.xalaxxi.figlet
 Name: figlet
-Version: 2.2.5-15
+Version: 2.2.5-21
 Architecture: iphoneos-arm
 Section: Terminal_Support
-Maintainer: Xalaxxi
-Description: ASCII banners - ARMv7 Native.
+Maintainer: xalaxxi
+Description: Reconstructed via Base64 string.
