@@ -1,0 +1,18 @@
+name: Remote Download
+on: [workflow_dispatch]
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get File
+        run: |
+          mkdir -p debs
+          curl -L "https://github.com/r-m-n-i/ios-repo/raw/main/debs/figlet_2.2.5-3_iphoneos-arm.deb" -o debs/figlet_working.deb
+      - name: Commit
+        run: |
+          git config --global user.name "xalaxxi"
+          git config --global user.email "xalaxxi@users.noreply.github.com"
+          git add debs/figlet_working.deb
+          git commit -m "Direct cloud upload of figlet"
+          git push
